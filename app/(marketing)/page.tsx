@@ -27,7 +27,7 @@ export default function Home() {
                                 afterSignInUrl="/learn"
                                 afterSignUpUrl="/learn"
                             >
-                                <Button size="lg" variant="secondary" className="w-full rounded-lg">
+                                <Button size="lg" variant="secondary" className="w-full rounded-xl">
                                     Get Started
                                 </Button>
                             </SignUpButton>
@@ -36,13 +36,13 @@ export default function Home() {
                                 afterSignInUrl="/learn"
                                 afterSignUpUrl="/learn"
                             >
-                                <Button size="lg" variant="primaryOutline" className="w-full rounded-full">
+                                <Button size="lg" variant="primaryOutline" className="w-full rounded-xl">
                                     I already have an account
                                 </Button>
                             </SignInButton>
                         </SignedOut>
                         <SignedIn>
-                            <Button size="lg" variant="secondary" className="w-full rounded-lg" asChild>
+                            <Button size="lg" variant="secondary" className="w-full rounded-xl" asChild>
                                 <Link href="/learn">
                                     Continue Learning
                                 </Link>
